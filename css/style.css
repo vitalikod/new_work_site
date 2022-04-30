@@ -98,6 +98,9 @@ li {
     color: #ffffff;
 }
 .first_name>span {
-    color: tomato;
+    color: #EF3851;
     font-size: 120%;
+}
+.button {
+    
 }
