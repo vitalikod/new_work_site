@@ -1,0 +1,103 @@
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+.header {
+    height: 768px;
+    width: 1367px;
+    background: url("../img/telochka12.jpg") no-repeat;
+    margin: 0 auto;
+}
+._container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.header_menu_list_item_link {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: calc(21 / 16 * 100%);
+    color: inherit;
+}
+.header_container {
+    position: relative;
+    display: flex;
+    height: 101px;
+    align-items: center;   
+}
+.header_menu_list {
+    display: flex;
+    align-items: center;
+}
+.header_menu {
+    margin: 0 0 0 501px;
+} 
+.header_menu_list_item :not(last_child) {
+    margin: 0 48px 0 0;
+}
+.osn {
+    position: absolute;
+    top: 292px;
+    left: 190px;
+}
+.osn_text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: calc(46 / 36 * 100%);
+    color: #ffffff;
+    
+    
+}
+.osn_text>span {
+    color: #EF3851;
+}
+.name {
+    position: absolute;
+    top: 338px;
+    left: 286px;
+}
+.first_name {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: calc(92 / 72 * 100%);
+    color: #ffffff;
+}
+.first_name>span {
+    color: tomato;
+    font-size: 120%;
+}
