@@ -44,6 +44,11 @@ li {
     background: url("../img/telochka12.jpg") no-repeat;
     margin: 0 auto;
 }
+.img_overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(55, 14, 14, 0.67);
+}
 ._container {
     max-width: 1110px;
     margin: 0 auto;
@@ -52,7 +57,7 @@ li {
     font-size: 16px;
     font-weight: 700;
     line-height: calc(21 / 16 * 100%);
-    color: inherit;
+    color: #FFFFFF;
 }
 .header_container {
     position: relative;
@@ -102,5 +107,277 @@ li {
     font-size: 120%;
 }
 .button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 494px;
+    left: 395px;
+    height: 56px;
+    width: 322px;
+    border-radius: 39px;
+    background-color: rgba(41, 41, 41, 1);
+}
+.header_batton {
+    color: #ffffff;
+}
+.button_img {
+    margin-top: 5px;
+}
+.heder_ellips {
+    display: flex;
+    position: relative;
+    top: 690px;
+    left: -637px;
+    height: 8px;
+    width: 50px;
+}
+.img_ellips :not(last_child) {
+    margin: 0 8px 0 0; 
+}
+/* ---------------------main-------------------- */
+.main {
+    min-height: 100%;
+    overflow: hidden;
+    width: 1367px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.main_container {
+    min-height: 100%;
+    min-width: 100%;
+}
+.container_top1 {
+    height: 397px;
+    display: flex;
+    width: 1367px;
+}
+.top1_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: url(../img/image.jpg);
+}
+.top1_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background: url(../img/image2.jpg);
+}
+.top1_left_p1 {
+    height: 70px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
+}
+.left_p1 {
+    line-height: calc(28 / 22 * 100%);
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.left_p2 {
+    line-height: calc(23 / 18 * 100%);
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.top1_left_p2 {
+    height: 90px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left_p3 {
+    line-height: calc(33 / 28 * 100%);
+    font-weight: 700;
+    font-size: 28px;
+    color: #EF3A53;
+}
+.left_p4 {
+    line-height: calc(33 / 28 * 100%);
+    font-weight: 700;
+    font-size: 28px;
+    color: #EF3A53;
+}
+.button_apply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 56px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 28px;
+}
+.p_apply {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(18 / 14 * 100%);
+}
+.top1_right_p1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right_p1 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: calc(26 / 22 * 100%);
+    color: #FFFFFF;
+}
+.right_p2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: calc(26 / 22 * 100%);
+    color: #FFFFFF;
+}
+.top1_right_p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right_p3 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: calc(34 / 28 * 100%);
+    color: #EF3851;
+}
+.right_p4 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: calc(34 / 28 * 100%);
+    color: #EF3851;
+}
+.batton_book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 56px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 28px;
+}
+.p_book {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(18 / 14 * 100%);
+}
+/* -----------block2------- */
+.container_top2 {
+    height: 422px;
+    width: 1367px;
+    background: url(../img/photo1.jpg);
+    filter: blur(1px);
+}
+.img_overlay2 {
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.57);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_top2:not(.int) {
+    filter: none;
+}
+.int {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: calc(40 / 34 * 100%);
+    color:#333333;
+}
+/* ----------------3-------------- */
+.container_top3 {
+    width: 1367px;
+    height: 533px;
+}
+.ogr_container3 {
+    height: 533px;
+    width: 1110px;
+    margin: 0 auto;
+}
+.img_arrow {
+    background: url(../img/Rectangle4.jpg) no-repeat;
+    height: 3px;
+    width: 100%;
+    margin-top: 7px;
+}
+.top3_p1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: calc(44 / 34 * 100%);
+    color: #333333;
+    padding-top: 70px;
+}
+.top3_p2_ogr {
+    height: 300px;
+    width: 663px;
+    padding-top: 30px;
+    padding-left: 42px;
+}
+.top3_p2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(24 / 14 *100%);
+    color: #333333;
+}
+.top3_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    height: 20px;
+    padding-top: 30px;
+}
+.button_read {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: calc(29 / 16 * 100%);
+    color: #333333;
+}
+.top3_img {
+    position: relative;
+    bottom:411px;
+    left: 702px;
+    height: 470px;
+    width: 323px;
+    background: url(../img/sloy3.jpg);
+}
+/* ----------------4----------------------- */
+.container_top4 {
+    background: url(../img/setka.jpg);
+    width: 1367px;
+    height: 422px;
+}
+.img_overlay3 {
+    background: rgba(37, 37, 37, 0.57);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top4_paragraf {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: calc(43 / 34 * 100%);
+    color: #ffffff;
 }
