@@ -561,11 +561,63 @@ li {
 }
 /* --------------8----------------- */
 .container_top8 {
+    height: 700px;
+    width: 1367px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.top8_content {
     height: 543px;
     width: 1367px;
     background: url(../img/jopatop8.jpg);
 }
-top8_obertka
-top8_ogl
-top8_input
-top8_button
+.top8_obertka {
+    margin-left: 709px;
+    height: 543px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top8_div_ogl {
+    height: 44px;
+    width: 445px;
+}
+.top8_ogl {
+    font-size: 34px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: calc(44 / 34 * 100%); 
+}
+.top8_total_input {
+    height: 156px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.top8_div_input {
+    height: 40px;
+    width: 279px;
+}
+.top8_input {
+    height: 40px;
+    width: 279px;
+    outline: none; 
+}
+.top8_div_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 125px;
+    background-color:  #EF3A53;
+    border-radius: 22.5px;
+}
+.top8_button_p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: calc(18 / 14 * 100%);
+    color: #FFFFFF;
+}
