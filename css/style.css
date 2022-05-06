@@ -2,7 +2,6 @@ html,
 body {
     height: 100%;
     line-height: 1;
-    font-size: 16px;
     font-weight: 700;
     font-family: Noto Sans, sans-serif;
 }
@@ -38,9 +37,10 @@ li {
     min-height: 100%;
     overflow: hidden;
 }
+/* ----------------------------------------------header------------------------------------ */
 .header {
-    height: 768px;
-    width: 1367px;
+    height: 48rem;
+    width: 85.43rem;
     background: url("../img/telochka12.jpg") no-repeat;
     margin: 0 auto;
 }
@@ -50,22 +50,22 @@ li {
     background: rgba(55, 14, 14, 0.67);
 }
 ._container {
-    max-width: 1110px;
+    max-width: 69.4rem;
     margin: 0 auto;
 }
 .header_menu_list_item_link {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 700;
-    line-height: calc(21 / 16 * 100%);
+    line-height: 1.31rem;
     color: #FFFFFF;
 }
 .header_menu_list_item :hover {
-    color: yellow;
+    color: #EF3851;
 }
 .header_container {
     position: relative;
     display: flex;
-    height: 101px;
+    height: 6.31rem;
     align-items: center;   
 }
 .header_menu_list {
@@ -73,20 +73,20 @@ li {
     align-items: center;
 }
 .header_menu {
-    margin: 0 0 0 501px;
+    margin: 0 0 0 31.31rem;
 } 
  .header_menu_list_item :not(last_child) {
-    margin: 0 48px 0 0;
+    margin: 0 3rem 0 0;
 } 
 .osn {
     position: absolute;
-    top: 292px;
-    left: 190px;
+    top: 18.25rem;
+    left: 11.87rem;
 }
 .osn_text {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
-    line-height: calc(46 / 36 * 100%);
+    line-height: 2.87rem;
     color: #ffffff;   
 }
 .osn_text>span {
@@ -94,13 +94,13 @@ li {
 }
 .name {
     position: absolute;
-    top: 338px;
-    left: 286px;
+    top: 21.12rem;
+    left: 17.87rem;
 }
 .first_name {
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 700;
-    line-height: calc(92 / 72 * 100%);
+    line-height: 5.75rem;
     color: #ffffff;
 }
 .first_name>span {
@@ -112,11 +112,11 @@ li {
     justify-content: space-around;
     align-items: center;
     position: absolute;
-    top: 494px;
-    left: 395px;
-    height: 56px;
-    width: 322px;
-    border-radius: 39px;
+    top: 30.875rem;
+    left: 24.687rem;
+    height: 3.5rem;
+    width: 20.125rem;
+    border-radius: 2.43rem;
     background-color: rgba(41, 41, 41, 1);
 }
 .button :hover {
@@ -126,18 +126,18 @@ li {
     color: #FFFFFF;
 }
 .button_img {
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 }
 .heder_ellips {
     display: flex;
     position: relative;
-    top: 690px;
-    left: -637px;
-    height: 8px;
-    width: 50px;
+    top: 43.125rem;
+    left: -39.8125rem;
+    height: 0.5rem;
+    width: 3.125rem;
 }
 .img_ellips :not(last_child) {
-    margin: 0 8px 0 0; 
+    margin: 0 0.5rem 0 0; 
 }
 /* ---------------------main-------------------- */
 .main {
@@ -631,6 +631,12 @@ li {
     color: #FFFFFF;
 }
 /* --------------------media----------------------------------------- */
+@media screen and (max-width:578px) {
+    html,
+    body {
+        font-size: 16px;
+    }
+}
 @media screen and (max-width:578px) {
     .header_menu_list_item_link {
         font-size: 36px;
