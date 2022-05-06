@@ -631,12 +631,12 @@ li {
     color: #FFFFFF;
 }
 /* --------------------media----------------------------------------- */
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .header_menu_list_item_link {
         font-size: 36px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .header_menu_list {
         flex-wrap: wrap;
         display: flex;
@@ -645,19 +645,19 @@ li {
         justify-content: space-around;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .header_menu {
         margin: 0 0 0 300px;
     } 
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .header_menu_list_item {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px 0px;
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .button {
         height: 103px;
         width: 393px;
@@ -666,86 +666,87 @@ li {
         left: 370px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .header_batton {
         font-size: 22px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .heder_ellips {
         position: relative;
         top: 690px;
         left: -527px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .left_p1 {
         font-size: 32px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .left_p2 {
         font-size: 28px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .button_apply {
         width: 330px;
         height: 90px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .p_apply {
         font-size: 40px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .right_p1 {
         font-size: 32px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .right_p2 {
         font-size: 28px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .batton_book {
         width: 330px;
         height: 90px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .p_book {
         font-size: 40px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .top8_total_input {
         height: 205px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .top8_div_button {
         height: 60px;
         width: 270px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .top8_button_p {
         font-size: 48px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .top8_input {
         height: 70px;
         width: 300px;
         font-size: 32px;
     }
 }
-@media (max-width:578px) {
+@media screen and (max-width:578px) {
     .top8_div_inpu {
         height: 70px;
         width: 300px; 
     }
 }
+  
