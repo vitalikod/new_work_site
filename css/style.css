@@ -631,18 +631,10 @@ li {
     color: #FFFFFF;
 }
 /* --------------------media----------------------------------------- */
-@media screen and (max-width:578px) {
-    html,
-    body {
-        font-size: 16px;
-    }
-}
-@media screen and (max-width:578px) {
+@media screen and (max-width:36.125em) {
     .header_menu_list_item_link {
         font-size: 36px;
     }
-}
-@media screen and (max-width:578px) {
     .header_menu_list {
         flex-wrap: wrap;
         display: flex;
@@ -650,40 +642,33 @@ li {
         height: auto;
         justify-content: space-around;
     }
-}
-@media screen and (max-width:578px) {
     .header_menu {
         margin: 0 0 0 300px;
     } 
-}
-@media screen and (max-width:578px) {
     .header_menu_list_item {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 10px 0px;
-}
-@media screen and (max-width:578px) {
-    .button {
+    }
+        .button {
         height: 103px;
         width: 393px;
         position: absolute;
         top: 494px;
         left: 370px;
     }
-}
-@media screen and (max-width:578px) {
     .header_batton {
         font-size: 22px;
     }
-}
-@media screen and (max-width:578px) {
     .heder_ellips {
         position: relative;
         top: 690px;
         left: -527px;
     }
 }
+   
+
 @media screen and (max-width:578px) {
     .left_p1 {
         font-size: 32px;
