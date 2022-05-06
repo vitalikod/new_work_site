@@ -644,54 +644,54 @@ li {
         justify-content: space-around;
     }
     .header_menu {
-        margin: 0 0 0 300px;
+        margin: 0 0 0 18.75rem;
     } 
     .header_menu_list_item {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 0px;
+        padding: 0.625rem 0;
     }
         .button {
-        height: 103px;
-        width: 393px;
+        height: 6.4375rem;
+        width: 24.5625rem;
         position: absolute;
-        top: 494px;
-        left: 370px;
+        top: 30.875rem;
+        left: 23.125rem;
     }
     .header_batton {
-        font-size: 22px;
+        font-size: 1.375rem;
     }
     .heder_ellips {
         position: relative;
-        top: 690px;
-        left: -527px;
+        top: 43.125rem;
+        left: -32.9375rem;
     }
     .left_p1 {
-        font-size: 32px;
+        font-size: 2rem;
     }
     .left_p2 {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
     .button_apply {
-        width: 330px;
-        height: 90px;
+        width: 20.625rem;
+        height: 5.625rem;
     }
     .p_apply {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     .right_p1 {
-        font-size: 32px;
+        font-size: 2rem;
     }
     .right_p2 {
-        font-size: 28px;
+        font-size: 1.75rem;
     }
     .batton_book {
-        width: 330px;
-        height: 90px;
+        width: 20.625rem;
+        height: 5.625rem;
     }
     .p_book {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
     .top8_total_input {
         height: 12.8125rem;
